@@ -1,6 +1,7 @@
 #pragma once
+#include "stdafx.h"
 
-class CustomCharString
+class SHFRAMEWORK_API CustomCharString
 {
 public:
 	CustomCharString();

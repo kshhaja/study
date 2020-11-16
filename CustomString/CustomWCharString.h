@@ -1,17 +1,7 @@
 #pragma once
+#include "stdafx.h"
 
-#ifdef CUSTOMSTRING_DLL
-#ifdef CUSTOMSTRING_EXPORTS
-#define CUSTOMSTRING_API __declspec(dllexport)
-#else
-#define CUSTOMSTRING_API __declspec(dllimport)
-#endif
-#else
-#define CUSTOMSTRING_API
-#endif
-
-
-class CUSTOMSTRING_API CustomWCharString
+class SHFRAMEWORK_API CustomWCharString
 {
 public:
 	CustomWCharString();
