@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{cbdf9ca2-2882-49c2-9a90-52f354cf77ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine">
+      <UniqueIdentifier>{11b17b61-ef9b-4692-92e9-185d703d7cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\math">
+      <UniqueIdentifier>{c2230cef-c3a8-487c-821e-8572325e1e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\math\public">
+      <UniqueIdentifier>{273b316d-1164-4c6b-ac7b-f3372289449f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\math\private">
+      <UniqueIdentifier>{1f0f3c3b-0fda-45db-90ff-88074a7f34f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\math\Vector2.h">
+      <Filter>Classes\Engine\math\public</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\math\Vector3.h">
+      <Filter>Classes\Engine\math\public</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\math\Matrix.h">
+      <Filter>Classes\Engine\math\public</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\math\defines.h">
+      <Filter>Classes\Engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\math\Vector4.h">
+      <Filter>Classes\Engine\math\public</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Engine\math\Quaternion.h">
+      <Filter>Classes\Engine\math\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\math\Vector3.cpp">
+      <Filter>Classes\Engine\math\private</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\math\Vector2.cpp">
+      <Filter>Classes\Engine\math\private</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\math\Matrix.cpp">
+      <Filter>Classes\Engine\math\private</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\math\Vector4.cpp">
+      <Filter>Classes\Engine\math\private</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Engine\math\Quaternion.cpp">
+      <Filter>Classes\Engine\math\private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
