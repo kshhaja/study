@@ -166,3 +166,8 @@ Vector4& Vector4::Normalize()
 
     return *this;
 }
+
+float Vector4::Dot(const Vector4& a, const Vector4& b)
+{
+    return (a.x * b.x) + (a.y * b.y) + (a.z * b.z) + (a.w * b.w);
+}

@@ -59,7 +59,7 @@ Vector2& Vector2::operator -= (const Vector2& v)
 Vector2& Vector2::operator *= (float f)
 {
 	x *= f;
-	y += f;
+	y *= f;
 
 	return *this;
 }
@@ -155,4 +155,9 @@ Vector2& Vector2::Normalize()
 	y *= m;
 
 	return *this;
+}
+
+float Vector2::Dot(const Vector2& a, const Vector2& b)
+{
+	return (a.x * b.x) + (a.y * b.y);
 }

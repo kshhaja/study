@@ -37,5 +37,7 @@ public:
 	bool  IsZero() const;
 	Vector4& Normalize();
 
+	static float Dot(const Vector4& a, const Vector4& b);
+
 	float x, y, z, w;
 };
